@@ -55,7 +55,7 @@ export function EarlyAccessDialog({ children }: { children: React.ReactNode }) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>{children}</DialogTrigger>
-      <DialogContent className="sm:max-w-[480px] max-h-[85vh] overflow-y-auto border-border bg-surface grain p-0 focus:outline-none scrollbar-hide">
+      <DialogContent className="sm:max-w-[480px] border-border bg-surface grain p-0 focus:outline-none">
         <div className="p-8 md:p-10">
           <AnimatePresence mode="wait">
             {!submitted ? (
