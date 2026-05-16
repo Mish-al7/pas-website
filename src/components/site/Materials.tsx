@@ -58,11 +58,11 @@ export function Materials() {
         <div className="mt-32 grid gap-12 md:grid-cols-12">
           <div className="md:col-span-4 md:pt-12">
             <h3 className="font-display text-3xl font-light md:text-5xl">
-              Forty-two<br />signals, one self.
+              Multiple<br />signals, one self.
             </h3>
             <p className="mt-6 max-w-sm text-sm text-muted-foreground">
               HRV, RHR, SpO₂, respiratory rate, skin temperature, sleep stages,
-              VO₂ max, training load — woven into a single longitudinal model
+              VO₂ max, training load woven into a single longitudinal model
               of you. The architecture is yours alone.
             </p>
           </div>

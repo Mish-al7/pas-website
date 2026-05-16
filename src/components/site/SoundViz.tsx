@@ -36,7 +36,7 @@ export function SoundViz() {
             </h2>
           </div>
           <p className="max-w-md text-pretty text-sm leading-relaxed text-muted-foreground">
-            Forty-two continuous biometric streams from your wearable, folded
+            Multiple continuous biometric streams from your wearable, folded
             into a single living baseline. Move across the field — this is
             what your body looks like to PAS AI.
           </p>
@@ -61,7 +61,7 @@ export function SoundViz() {
           </div>
 
           <div className="pointer-events-none absolute right-6 top-6 font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-            <div className="text-right">42 channels</div>
+            <div className="text-right">channels</div>
             <div className="mt-1 text-right">σ-tuned to you</div>
           </div>
         </div>

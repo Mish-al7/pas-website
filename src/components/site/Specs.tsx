@@ -2,8 +2,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useState } from "react";
 
 const ROWS = [
-  ["Wearables", "4 platforms", "Apple Watch · Fitbit · Garmin · Oura"],
-  ["Signals", "42 streams", "HRV · RHR · SpO₂ · sleep · temp · load"],
+  ["Wearables", "Multiple platforms", "Apple Watch · Fitbit · Garmin · Oura · Others"],
+  ["Signals", "Multiple streams", "HRV · RHR · SpO₂ · sleep · temp · load"],
   ["Baseline", "14 days", "personal model, retrained continuously"],
   ["Comparison", "1:1", "you, against you — never the population"],
   ["Latency", "< 60 s", "from wearable sync to verdict"],

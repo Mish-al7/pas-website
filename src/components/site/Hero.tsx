@@ -87,7 +87,7 @@ export function Hero() {
             transition={{ duration: 1, delay: 1.4 }}
             className="mt-8 max-w-md text-pretty text-sm leading-relaxed text-muted-foreground md:ml-auto"
           >
-            Connect the wearable you already own. PAS&nbsp;AI listens to your
+            Connect the wearable you already own. PAS AI listens to your
             biometrics in the background, learns your personal baseline, and
             speaks only when something meaningful drifts.
           </motion.p>
@@ -105,7 +105,7 @@ export function Hero() {
           </div>
           <div className="hidden gap-12 md:flex">
             <div><div className="text-foreground text-2xl font-display">14d</div><div>baseline</div></div>
-            <div><div className="text-foreground text-2xl font-display">42</div><div>signals tracked</div></div>
+            <div><div className="text-foreground text-2xl font-display">Multiple</div><div>signals tracked</div></div>
             <div><div className="text-foreground text-2xl font-display">1:1</div><div>you vs. you</div></div>
           </div>
         </motion.div>
