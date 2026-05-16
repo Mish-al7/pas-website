@@ -1,4 +1,4 @@
-import { defineConfig } from "vinxi/config";
+import { defineConfig } from "vinxi";
 import { tanstackRouter } from "@tanstack/router-plugin/vite";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
