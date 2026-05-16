@@ -9,6 +9,7 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import faviconImg from "@/assets/signal-architecture.jpg?url";
 
 function NotFoundComponent() {
   return (
@@ -82,6 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@pasai" },
     ],
     links: [
+      { rel: "icon", type: "image/jpeg", href: faviconImg },
       {
         rel: "stylesheet",
         href: appCss,
